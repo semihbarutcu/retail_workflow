@@ -1,0 +1,22 @@
+{
+  "best_model": "logistic_regression",
+  "n_train": 3750,
+  "n_test": 1250,
+  "churn_rate": 0.4378,
+  "models": {
+    "logistic_regression": {
+      "roc_auc": 0.8408,
+      "accuracy": 0.7496,
+      "precision_churn": 0.6924,
+      "recall_churn": 0.7697,
+      "f1_churn": 0.729
+    },
+    "random_forest": {
+      "roc_auc": 0.8358,
+      "accuracy": 0.7512,
+      "precision_churn": 0.7027,
+      "recall_churn": 0.7477,
+      "f1_churn": 0.7245
+    }
+  }
+}

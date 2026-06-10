@@ -1,0 +1,10 @@
+# Generated datasets and plots are fully reproducible from a fixed seed.
+data/
+reports/figures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
